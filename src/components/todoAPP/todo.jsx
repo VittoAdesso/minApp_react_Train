@@ -27,6 +27,7 @@ const Todo = ({item, onUpdate, onDelete}) => { // paso props para que todoAPP le
             </form>
         );
     }
+    
     const TodoElement = () => {
         return (
             <div className="todoInfo">
