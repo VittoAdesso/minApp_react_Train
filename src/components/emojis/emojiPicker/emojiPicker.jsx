@@ -3,6 +3,7 @@ import { data as emojiList } from './data';
 import EmojiButton from './emojiButton';
 import EmojiSearch from './emojiSearch';
 
+import styles from "./emojiPicker.module.scss";
 
 export function EmojiPicker(props, inputRef) {
 
@@ -55,10 +56,10 @@ export function EmojiPicker(props, inputRef) {
     }
 
     return (
-        <div ref={containerRef}>
-            <button onClick={handleClickOpen}>🔎</button>
+        <div ref={containerRef} style={{ position: "relative", display: "inline" }}>
+            <button onClick={handleClickOpen} className={styles.emojiPickerButton} >🔎</button>
             { isOpen ? (
-                <div>
+                <div className={styles.emojiPickerContainer}>
                     <EmojiSearch onSearch={handleSearch} /> 
                     <div>
                         {emojis.map((emoji) => (

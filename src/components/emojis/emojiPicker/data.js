@@ -5,9 +5,9 @@ export const data = [
         keywords: 'smiling face happy',
     }, 
     {
-        symbol: '♥️',
-        name: ' corazon',
-        keywords: 'heart love like',
+        symbol: '💡',
+        name: ' idea',
+        keywords: 'idea think brain',
     },
     {
         symbol: '🦄',
