@@ -8,7 +8,7 @@ import EmojiPickerInput from './components/emojis/emojiPicker/emojiPickerInput';
 function App() {
   return (
     <div className="App">
-    {/* TODO: Make router links to have spa with projects */}
+   
       <TodoApp></TodoApp>
       <hr></hr>
       {/* <WeatherApp></WeatherApp> */}
